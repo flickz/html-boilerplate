@@ -1,0 +1,70 @@
+body {
+  font-family: sans-serif;
+}
+
+/* .wrapper {
+  display: grid;
+  width: 100vw;
+  min-height: 100vh;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 80px 30% 1fr 1fr;
+  grid-template-areas:
+    "header header header"
+    "menu-sidebar carousel ad-sidebar"
+    "section-1 section-1 section-1"
+    "section-2 section-2 section-2";
+}
+
+.header {
+  background: blue;
+  grid-area: header;
+}
+
+.menu-sidebar {
+  background: orange;
+  grid-area: menu-sidebar;
+}
+
+.main {
+  background: red;
+  grid-area: carousel;
+}
+
+.ad-sidebar {
+  background: yellow;
+  grid-area: ad-sidebar;
+}
+
+.section-1 {
+  background: green;
+  grid-area: section-1;
+}
+
+.section-2 {
+  background: plum;
+  grid-area: section-2
+} */
+.wrapper {
+  height: 90vh;
+  width: 80vw;
+}
+section {
+  height: 100%;
+  width: 100%;
+}
+
+.section-1 {
+  background-color: red;
+}
+
+.section-2 {
+  background-color: yellow;
+}
+
+.section-3 {
+  background-color: blue;
+}
+
+.section-4 {
+  background-color: orange;
+}
